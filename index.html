@@ -3,44 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Git Project</title>
+    <title>Sylvanas Took the Kids - Warmane Guild</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Hello, World! 🌍</h1>
-            <p>This is my first project tracked with Git!</p>
-        </header>
-        
-        <main>
-            <section class="card">
-                <h2>About This Page</h2>
-                <p>I just learned how to:</p>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="guild-name">Sylvanas Took the Kids</h1>
+            <p class="server-info">Warmane - Icecrown Realm</p>
+            <nav class="main-nav">
                 <ul>
-                    <li>Install Git on Ubuntu</li>
-                    <li>Use VS Code as my editor</li>
-                    <li>Create HTML and CSS files</li>
-                    <li>Stage and commit changes</li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#join">Join Us</a></li>
+                    <li><a href="#roster">Roster</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-            </section>
-            
-            <section class="card">
-                <h2>My Next Goals</h2>
-                <p>I want to learn:</p>
-                <ol>
-                    <li>JavaScript programming</li>
-                    <li>React framework</li>
-                    <li>Backend development</li>
-                    <li>Deploying websites</li>
-                </ol>
-            </section>
-        </main>
-        
-        <footer>
-            <button onclick="changeColor()">Click for a Surprise! 🎨</button>
-            <p>Made with 💻 by Me</p>
-        </footer>
-    </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="hero">
+            <div class="container">
+                <h2>For the Horde! ⚔️</h2>
+                <p>We're a casual raiding guild focused on having fun while conquering Icecrown Citadel and other end-game content. No drama, just good times and epic loot.</p>
+            </div>
+        </section>
+
+        <section class="guild-info">
+            <div class="container">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>🏆 Raid Schedule</h3>
+                        <p>Wednesday & Saturday<br>20:00 - 23:00 Server Time</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>👥 Guild Level</h3>
+                        <p>Level 25<br>Max Perks</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>🎯 Focus</h3>
+                        <p>10m & 25m ICC<br>Ruby Sanctum<br>ToGC</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="join" class="join-section">
+            <div class="container">
+                <h2>Want to Join Our Family?</h2>
+                <div class="requirements">
+                    <h3>What We're Looking For:</h3>
+                    <ul>
+                        <li>Active players who enjoy the game</li>
+                        <li>Team players with positive attitudes</li>
+                        <li>GS 5.8k+ for raid content</li>
+                        <li>Working knowledge of your class</li>
+                    </ul>
+                </div>
+                <div class="how-to-join">
+                    <h3>How to Apply:</h3>
+                    <p>Whisper any officer in-game:</p>
+                    <ul class="officer-list">
+                        <li>🔸 Warchiefsname - Guild Master</li>
+                        <li>🔸 OtherOfficer - Raid Leader</li>
+                        <li>🔸 AnotherOne - Officer</li>
+                    </ul>
+                    <p class="note">* Replace these with actual officer names!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="roster" class="roster-section">
+            <div class="container">
+                <h2>Guild Leadership</h2>
+                <div class="roster-grid">
+                    <div class="character-card">
+                        <h4>Warchiefsname</h4>
+                        <p>Orc Warrior<br>Guild Master<br>GS: 6.4k</p>
+                    </div>
+                    <div class="character-card">
+                        <h4>OtherOfficer</h4>
+                        <p>Undead Mage<br>Raid Leader<br>GS: 6.3k</p>
+                    </div>
+                    <div class="character-card">
+                        <h4>AnotherOne</h4>
+                        <p>Tauren Druid<br>Officer<br>GS: 6.2k</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="main-footer">
+        <div class="container">
+            <p>Find us online: <strong>Warmane - Icecrown Realm</strong></p>
+            <p>Guild Master: <strong>Warchiefsname</strong> (in-game)</p>
+            <p class="disclaimer">Sylvanas Took the Kids is a guild on Warmane private server. This is a fan site and not affiliated with Blizzard Entertainment.</p>
+        </div>
+    </footer>
 </body>
 </html>
